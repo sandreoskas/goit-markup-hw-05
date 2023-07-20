@@ -895,6 +895,9 @@ input {
     align-items: center;
     justify-content: center;
     transition: fill var(--typical-transition), border var(--typical-transition), background-color var(--typical-transition) border-color var(--typical-transition);
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .default-checkbox:checked+.checkbox-label span {
